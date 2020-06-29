@@ -1,5 +1,5 @@
 from tkinter import *
-from Instagram_image_downloader import *
+from Downloader import *
 
 root = Tk()
 root.geometry("560x100")
