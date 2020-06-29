@@ -3,6 +3,7 @@ from Downloader import *
 
 root = Tk()
 root.geometry("560x100")
+
 def img_d():
 	image_post_downloader(url_widget_image.get())
 
@@ -15,10 +16,10 @@ label_image.grid(row=0)
 label_video = Label(root, text="Video URL")
 label_video.grid(row=1)
 
-url_widget_image = Entry(root, width=65)
+url_widget_image = Entry(root, width=70)
 url_widget_image.grid(row=0, column=1)
 
-url_widget_video = Entry(root, width=65)
+url_widget_video = Entry(root, width=70)
 url_widget_video.grid(row=1, column=1)
 
 button_image = Button(root, text="Download Image", command=img_d)
